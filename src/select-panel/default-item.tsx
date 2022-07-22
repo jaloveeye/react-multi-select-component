@@ -22,6 +22,7 @@ const DefaultItemRenderer = ({
       checked={checked}
       tabIndex={-1}
       disabled={disabled}
+      style={{ visibility: disabled ? "hidden" : "visible" }}
     />
     <span>{option.label}</span>
   </div>
